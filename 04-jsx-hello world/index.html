@@ -7,7 +7,7 @@
     <title>Hello React JS</title>
   </head>
   <body>
-    <div id="app">0</div>
+    <div id="app"></div>
     <script
       src="https://unpkg.com/react@18/umd/react.development.js"
       crossorigin
@@ -16,11 +16,12 @@
       src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"
       crossorigin
     ></script>
-    <script>
-      const helloWorld = React.createElement('h1', null, 'Hello world React!');
+    <script src="https://unpkg.com/babel-standalone@6/babel.min.js"></script>
+    <script type="text/babel">
+      const helloReact = <h1>Hello from react</h1>;
       const container = document.getElementById('app');
       const root = ReactDOM.createRoot(container);
-      root.render(helloWorld);
+      root.render(helloReact);
     </script>
   </body>
 </html>
