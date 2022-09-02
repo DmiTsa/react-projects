@@ -1,9 +1,10 @@
 import { useState } from 'react';
 import generateRand from '../utils/generateRand';
 
-function RandomNumber() {
-  const [randomNumber, setRandomNumber] = useState(generateRand());
-  const clickNum = () => setRandomNumber(generateRand());
+function RandomNumber(props) {
+  const { maxNum } = props;
+  const [randomNumber, setRandomNumber] = useState(generateRand(maxNum));
+  const clickNum = () => setRandomNumber(generateRand(maxNum));
   return (
     <div>
       <h1>

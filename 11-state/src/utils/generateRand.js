@@ -1,5 +1,5 @@
-function generateRand() {
-  return Math.floor(Math.random() * 100);
+function generateRand(maxNum) {
+  return Math.floor(Math.random() * maxNum);
 }
 
 export default generateRand;
