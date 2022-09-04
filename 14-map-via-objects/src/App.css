@@ -1,3 +1,19 @@
 .App {
   text-align: center;
 }
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.card {
+  padding: 5px;
+  margin: 5px;
+  width: 600px;
+  text-align: left;
+  border: 1px blue solid;
+  border-radius: 10px;
+}
