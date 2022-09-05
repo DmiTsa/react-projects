@@ -1,0 +1,20 @@
+import './App.css';
+import { useEffect, useState } from 'react';
+
+function App() {
+  const [todo, setTodo] = useState(null);
+
+  useEffect(() => {
+    fetch('https://jsonplaceholder.typicode.com/todos/8')
+      .then((response) => response.json())
+      .then((json) => setTodo(json));
+  }, []);
+
+  return (
+    <div className="App">
+      <h1>{todo && todo.title}</h1>
+    </div>
+  );
+}
+
+export default App;
