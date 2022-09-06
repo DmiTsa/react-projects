@@ -1,0 +1,27 @@
+.formInput {
+  text-align: center;
+  width: 40%;
+  padding: 3px 20px;
+  background-color: #2f2f9b36;
+  margin: 10px;
+  font-size: large;
+  border-radius: 5px;
+  box-shadow: 0 0 10px grey;
+}
+
+.button {
+  padding: 3px 20px;
+  background-color: #15ff0036;
+  margin: 10px;
+  font-size: large;
+  border-radius: 5px;
+}
+
+.input {
+  width: 70%;
+  padding: 3px 20px;
+  background-color: #15ff0036;
+  margin: 10px;
+  font-size: large;
+  border-radius: 5px;
+}

@@ -1,0 +1,9 @@
+.todoItem {
+  width: 30%;
+  padding: 5px 20px;
+  background-color: #005fff52;
+  margin: 15px;
+  font-size: large;
+  border-radius: 5px;
+  text-align: left;
+}
