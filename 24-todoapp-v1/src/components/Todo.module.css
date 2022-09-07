@@ -1,9 +1,18 @@
 .todoItem {
-  width: 30%;
   padding: 5px 20px;
-  background-color: #005fff52;
   margin: 15px;
-  font-size: large;
+  width: 50%;
+  background-color: #5478b652;
+  font-size: 1.5rem;
   border-radius: 5px;
+  text-align: left;
+}
+
+.icon {
+  margin: 5px;
+}
+
+.textTodo {
+  margin: 1rem;
   text-align: left;
 }
